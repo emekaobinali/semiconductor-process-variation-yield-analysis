@@ -1,5 +1,7 @@
 # Semiconductor Process Variation and Yield Analysis
 
+**[Live App](https://emeka-obinali-secom.streamlit.app/)** — Employers can explore the validated project results interactively. This GitHub repository remains the technical source of truth for the methodology, saved results, and implementation.
+
 ## Project overview
 
 **Can anonymous process measurements help prioritize semiconductor production records for additional quality review?**
@@ -232,7 +234,7 @@ App installation was verified in an isolated Python 3.12 environment on Windows.
 python -m unittest tests.test_app_data -v
 ```
 
-The app has not been deployed. Its separate dependencies do not replace the scientific environment below or establish full scientific reproduction.
+The app is deployed on Streamlit Community Cloud: **[Live App](https://emeka-obinali-secom.streamlit.app/)**. Its separate dependencies do not replace the scientific environment below or establish full scientific reproduction.
 
 ### Scientific environment and checks
 
