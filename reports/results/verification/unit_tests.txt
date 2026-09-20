@@ -1,0 +1,13 @@
+test_fold_clones_are_independent_and_y_is_ignored (test_preprocessing.PreprocessingTests.test_fold_clones_are_independent_and_y_is_ignored) ... ok
+test_loader_ignores_excluded_records_and_preserves_metadata (test_preprocessing.PreprocessingTests.test_loader_ignores_excluded_records_and_preserves_metadata) ... ok
+test_optional_scaling_leaves_flags_binary (test_preprocessing.PreprocessingTests.test_optional_scaling_leaves_flags_binary) ... ok
+test_raw_values_are_unchanged (test_preprocessing.PreprocessingTests.test_raw_values_are_unchanged) ... ok
+test_schema_and_nonfinite_rejection (test_preprocessing.PreprocessingTests.test_schema_and_nonfinite_rejection) ... ok
+test_training_median_and_flags (test_preprocessing.PreprocessingTests.test_training_median_and_flags) ... ok
+test_training_only_filter_and_new_missingness (test_preprocessing.PreprocessingTests.test_training_only_filter_and_new_missingness) ... ok
+test_transform_does_not_learn_from_validation (test_preprocessing.PreprocessingTests.test_transform_does_not_learn_from_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.253s
+
+OK

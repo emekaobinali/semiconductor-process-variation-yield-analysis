@@ -1,0 +1,405 @@
+{
+  "original_files_verified_unchanged": 78,
+  "copied_files": [
+    {
+      "source": "work/secom-inspection/raw/secom.data",
+      "destination": "data/raw/secom.data",
+      "sha256": "20f0e7ee434f7dcbae0eea9ffff009a2b57f42d6b0dc9a5bd4f00782c0a3374c"
+    },
+    {
+      "source": "work/secom-inspection/raw/secom.names",
+      "destination": "data/raw/secom.names",
+      "sha256": "6d91b0b46cdee03064ee3e3112f937c1b3f7fcd9933575794ec07974e6f1ea59"
+    },
+    {
+      "source": "work/secom-inspection/raw/secom_labels.data",
+      "destination": "data/raw/secom_labels.data",
+      "sha256": "126884cf453705c9e61a903fe906f0665a3b45ce3639e621edc5c93c89627e03"
+    },
+    {
+      "source": "work/secom-inspection/secom.zip",
+      "destination": "data/raw/secom.zip",
+      "sha256": "eea568baf3c2229096d7d294cf0b096b5502bd96d92c0b80a65b84714059be8e"
+    },
+    {
+      "source": "work/secom-inspection/create_split.py",
+      "destination": "src/inspection/create_split.py",
+      "sha256": "edb71ae2099d2af55c7fa641e90a4f0ca5129f77d833277cf0a5d475afb64a0c"
+    },
+    {
+      "source": "work/secom-inspection/inspect_secom.py",
+      "destination": "src/inspection/inspect_secom.py",
+      "sha256": "14cde4fb41d0108958d077ebf0a193c22644ac1afcdf62c2dcf6cbebe4b9f9e3"
+    },
+    {
+      "source": "work/secom-inspection/save_evidence.py",
+      "destination": "src/inspection/save_evidence.py",
+      "sha256": "4f6faf25b93d10f10416be29021bbe0526649a901e250ecd93da7a8303bc9df1"
+    },
+    {
+      "source": "work/secom-inspection/summary.json",
+      "destination": "reports/results/inspection/secom-structure-results.json",
+      "sha256": "a387d4439bbb28a9323c3aeab67973237ac935dc7b7a6b626a4b84f619309b97",
+      "pre_cleanup_destination": "reports/results/inspection/original-summary.json"
+    },
+    {
+      "source": "work/secom-project/splits/development_rows.csv",
+      "destination": "data/splits/development_rows.csv",
+      "sha256": "500603f93e5c527d551db48a1db856ab4993148184000d315d366a92d901d064"
+    },
+    {
+      "source": "work/secom-project/splits/reserved_test_rows.csv",
+      "destination": "data/splits/reserved_test_rows.csv",
+      "sha256": "caa001e90f07127c37f70b8255546c85c4a89d89e6b43bf59cf484b8bc2f51ef"
+    },
+    {
+      "source": "work/secom-project/splits/split_record.json",
+      "destination": "data/splits/split_record.json",
+      "sha256": "070b9e10153aae879cdf33d216bcd940c8cc2fea50d03a079439d4b06c5a71f5"
+    },
+    {
+      "source": "work/secom-project/verification/development_validation_folds.csv",
+      "destination": "data/splits/development_validation_folds.csv",
+      "sha256": "c870c9848b8c8c5721cbf56f1530c9d891162f228b3d2ccb2e46a212e0c2b842"
+    },
+    {
+      "source": "work/secom-project/preprocessing.py",
+      "destination": "src/preprocessing.py",
+      "sha256": "160c0f36ef2ae0c606758007f55b6290fef84bccf86a1610a691d5e4e7dde281"
+    },
+    {
+      "source": "work/secom-project/compare_baselines.py",
+      "destination": "src/modeling/compare_baselines.py",
+      "sha256": "bc2496673ae02e2450de6c405dc462d6378e7a17ac7261ae59346990114acdb1"
+    },
+    {
+      "source": "work/secom-project/compare_stronger.py",
+      "destination": "src/modeling/compare_stronger.py",
+      "sha256": "1a24ca78ffc3b2a26cdbd337f095783b355c63b8a25c4be50b6014b080c11728"
+    },
+    {
+      "source": "work/secom-project/threshold_tradeoffs.py",
+      "destination": "src/evaluation/threshold_tradeoffs.py",
+      "sha256": "bace7c5be22950f43d5b3eaa796b6bfa03509d25793c07918c321ef33d460daf"
+    },
+    {
+      "source": "work/secom-project/ensemble_thresholds.py",
+      "destination": "src/evaluation/ensemble_thresholds.py",
+      "sha256": "824e09a6bb4d41df4ce03c9154f33c69533851782e469043dd5ce84af9eab4f3"
+    },
+    {
+      "source": "work/secom-project/intermediate_thresholds.py",
+      "destination": "src/evaluation/intermediate_thresholds.py",
+      "sha256": "19d26c47a64fb13df68dbdd309e5f6273ea6264a67d03c43958364aa62bff4b4"
+    },
+    {
+      "source": "work/secom-project/final_test_once.py",
+      "destination": "src/evaluation/final_test_once.py",
+      "sha256": "a9efd853770215fa1bf71e0f1ec51e1187becebfb4e15b9ca35cab948e245a24"
+    },
+    {
+      "source": "work/secom-project/verify_preprocessing.py",
+      "destination": "src/evaluation/verify_preprocessing.py",
+      "sha256": "5ca646787c981cc03d2923bb414f24afa581659c81e7d1b76971e057e2845e47"
+    },
+    {
+      "source": "work/secom-project/verify_stronger_results.py",
+      "destination": "src/evaluation/verify_stronger_results.py",
+      "sha256": "9bfb3b612ad8509414a306f186ff2c72f0c50e0b5ea292c5a0be4f1af4081d14"
+    },
+    {
+      "source": "work/secom-project/interpret_frozen.py",
+      "destination": "src/interpretation/interpret_frozen.py",
+      "sha256": "ce569c9d7fc29f1d4c4c676978297a46aa993cbae0b2c362c3386259ccfa72e9"
+    },
+    {
+      "source": "work/secom-project/report_interpretation.py",
+      "destination": "src/interpretation/report_interpretation.py",
+      "sha256": "defa3b37461bc4f818482a3551844b687ea699d5aa3e80a0efe96bc1a3d278a6"
+    },
+    {
+      "source": "work/secom-project/test_preprocessing.py",
+      "destination": "tests/test_preprocessing.py",
+      "sha256": "4be8d5f49a11e428ee043c3e6e970cc13e66006d1c6be05973cad1b31eb2d18e"
+    },
+    {
+      "source": "work/secom-project/baseline_comparison/aggregate.json",
+      "destination": "reports/results/baseline_comparison/aggregate.json",
+      "sha256": "98ed82883ece6c3675d2ac702119385715456df791df24704e2f6a36135f1c1d"
+    },
+    {
+      "source": "work/secom-project/baseline_comparison/development_oof_predictions.csv",
+      "destination": "artifacts/prediction_records/baseline_comparison/development_oof_predictions.csv",
+      "sha256": "29951aa098d83591405a1dfe04bf07b991309fe622a6bbd277dc27613531320f"
+    },
+    {
+      "source": "work/secom-project/baseline_comparison/diagnostics.json",
+      "destination": "reports/results/baseline_comparison/diagnostics.json",
+      "sha256": "2999ec306e9f8c08894a408919780af0c834572c07bc14f0c5a2583dc7f05ac3"
+    },
+    {
+      "source": "work/secom-project/baseline_comparison/fixed_settings.json",
+      "destination": "config/baseline_settings.json",
+      "sha256": "d99f3e74eda711455e1da8ff9673b6d2917a9711a21b115f145ab563891fb802"
+    },
+    {
+      "source": "work/secom-project/baseline_comparison/fold_metrics.csv",
+      "destination": "reports/results/baseline_comparison/fold_metrics.csv",
+      "sha256": "b2d3f47a7b51210edb3af00b53ef3a9ce593125b4427f5556af04c77ff734ef8"
+    },
+    {
+      "source": "work/secom-project/stronger_comparison/aggregate.json",
+      "destination": "reports/results/stronger_comparison/aggregate.json",
+      "sha256": "18a8efba2a85422274a79c1fbc7660bc9ea26a45092b8fb60e517088b6db341f"
+    },
+    {
+      "source": "work/secom-project/stronger_comparison/development_oof_predictions.csv",
+      "destination": "artifacts/prediction_records/stronger_comparison/development_oof_predictions.csv",
+      "sha256": "b585034252126773358a5b8a097da1d94964521a6e06e72325c17c314d74f95b"
+    },
+    {
+      "source": "work/secom-project/stronger_comparison/diagnostics.json",
+      "destination": "reports/results/stronger_comparison/diagnostics.json",
+      "sha256": "70bab0cf3ed33f29c7588acea12f281715d5bcca0ee263e6248454bdf20f6f27"
+    },
+    {
+      "source": "work/secom-project/stronger_comparison/fixed_settings.json",
+      "destination": "config/stronger_settings.json",
+      "sha256": "8c609ae4eb49e32be773d2503ad1faa5d136cfc5ec2a2846f31fdb0d75453c9b"
+    },
+    {
+      "source": "work/secom-project/verification/feature_audit.csv",
+      "destination": "reports/results/verification/feature_audit.csv",
+      "sha256": "dd0d377469fdc0c9bbd71ae1566110cd6b4d030e26a4059eea9d7cb48a47de6f"
+    },
+    {
+      "source": "work/secom-project/verification/unit_tests.txt",
+      "destination": "reports/results/verification/unit_tests.txt",
+      "sha256": "f6993bfc79175635d9028350605170dc35b77eeda3dc1f489d05c90a4bc7841b"
+    },
+    {
+      "source": "work/secom-project/verification/verification.json",
+      "destination": "reports/results/verification/verification.json",
+      "sha256": "78616c3ad469289c01b33e0d99bb2645134f0513ca8b9893434c334f53c2ce6e"
+    },
+    {
+      "source": "work/secom-project/final_evaluation/events.jsonl",
+      "destination": "artifacts/frozen_model/events.jsonl",
+      "sha256": "a868b53e828959309d44715506fbcb08e300b7926dfd6c59860703bb7a7466f2"
+    },
+    {
+      "source": "work/secom-project/final_evaluation/fitted_state.json",
+      "destination": "artifacts/frozen_model/fitted_state.json",
+      "sha256": "2ed8cdb695a830a2e458facd06a1384fd8c9d9ec081c999cd936c7fd540b8dfe"
+    },
+    {
+      "source": "work/secom-project/final_evaluation/frozen_fitted_model.joblib",
+      "destination": "artifacts/frozen_model/frozen_fitted_model.joblib",
+      "sha256": "0ff4125f395f430ea87c1e728a284d09cd0369e6780627d45a413102ef30ad71"
+    },
+    {
+      "source": "work/secom-project/final_evaluation/frozen_method.json",
+      "destination": "config/frozen_method.json",
+      "sha256": "632a5d22782d46f46afa1c47d4037cf88d863cd75385a21c98456bb7bb2b475e"
+    },
+    {
+      "source": "work/secom-project/final_evaluation/reserved_test_metrics.json",
+      "destination": "reports/final_evaluation/secom-final-test-metrics.json",
+      "sha256": "5044fb3e765f1230f9d50de9bbb36ba4b0b5c02df9c22d89a23b88eb44dddc7e",
+      "pre_cleanup_destination": "reports/final_evaluation/reserved_test_metrics.json"
+    },
+    {
+      "source": "work/secom-project/final_evaluation/reserved_test_predictions.csv",
+      "destination": "artifacts/prediction_records/reserved_test_predictions.csv",
+      "sha256": "53cc08231017cedffdf79e0eecc1a472b8a43db255ef3eca658dc33289626daa"
+    },
+    {
+      "source": "work/secom-project/feature_interpretation/all_feature_importances.csv",
+      "destination": "reports/feature_interpretation/secom-feature-all_feature_importances.csv",
+      "sha256": "7bd1722270ebb18bddfbb6aae495a00434176ca9aa2bfe94419dfc765911b797",
+      "pre_cleanup_destination": "reports/feature_interpretation/working-results/all_feature_importances.csv"
+    },
+    {
+      "source": "work/secom-project/feature_interpretation/audit.json",
+      "destination": "reports/feature_interpretation/secom-feature-audit.json",
+      "sha256": "20309fbbf5f736e7cbce6243f01bf079f4d1cb70d6f76a859d74d9eeb16b7b75",
+      "pre_cleanup_destination": "reports/feature_interpretation/working-results/audit.json"
+    },
+    {
+      "source": "work/secom-project/feature_interpretation/permutation_raw.npz",
+      "destination": "artifacts/permutation_cache/permutation_raw.npz",
+      "sha256": "3f9a702444ded4980324e6dc189656d735ae57103ad4165711aafcc85a8896e2"
+    },
+    {
+      "source": "work/secom-project/feature_interpretation/selected_correlations.csv",
+      "destination": "reports/feature_interpretation/secom-feature-selected_correlations.csv",
+      "sha256": "c42503c373754baaad9a32f4334a440a0198e6d28463f524972cd65141540e0b",
+      "pre_cleanup_destination": "reports/feature_interpretation/working-results/selected_correlations.csv"
+    },
+    {
+      "source": "work/secom-project/feature_interpretation/top20_features.csv",
+      "destination": "reports/feature_interpretation/secom-feature-top20_features.csv",
+      "sha256": "f67f3ce504981dd7bfa35b860314fcaead0bcdd7db274a72f306d98d9f25bf54",
+      "pre_cleanup_destination": "reports/feature_interpretation/working-results/top20_features.csv"
+    },
+    {
+      "source": "outputs/secom-approved-protocol-and-split.md",
+      "destination": "reports/methodology/secom-approved-protocol-and-split.md",
+      "sha256": "f9f1b1127a89b5651ac43f18c23b6be8bf768ddfba71285b4da47c22b40adbb0"
+    },
+    {
+      "source": "outputs/secom-baseline-comparison.md",
+      "destination": "reports/comparisons/secom-baseline-comparison.md",
+      "sha256": "c4525e211bd6456737a579abb1432e33fdc3645b3137ef4f9cd6e8403e94c00b"
+    },
+    {
+      "source": "outputs/secom-baseline-fold-metrics.csv",
+      "destination": "reports/results/baseline_comparison/fold_metrics.csv",
+      "sha256": "b2d3f47a7b51210edb3af00b53ef3a9ce593125b4427f5556af04c77ff734ef8",
+      "pre_cleanup_destination": "reports/results/comparisons/secom-baseline-fold-metrics.csv"
+    },
+    {
+      "source": "outputs/secom-ensemble-threshold-comparison.md",
+      "destination": "reports/comparisons/secom-ensemble-threshold-comparison.md",
+      "sha256": "2aed110224ec28a4f349803edacccad72f40bb032726f8b0e0243833125caa76"
+    },
+    {
+      "source": "outputs/secom-ensemble-threshold-folds.csv",
+      "destination": "reports/results/comparisons/secom-ensemble-threshold-folds.csv",
+      "sha256": "5bc4b0b5ef9365f0b334744c737872159b1a93f77349c37da4c209faf0ea2273"
+    },
+    {
+      "source": "outputs/secom-ensemble-threshold-summary.csv",
+      "destination": "reports/results/comparisons/secom-ensemble-threshold-summary.csv",
+      "sha256": "80d140e4ddaf24473ca402477d0a3ddf3056a8e202ba3d28c7fb044c377d9c04"
+    },
+    {
+      "source": "outputs/secom-feature-all_feature_importances.csv",
+      "destination": "reports/feature_interpretation/secom-feature-all_feature_importances.csv",
+      "sha256": "7bd1722270ebb18bddfbb6aae495a00434176ca9aa2bfe94419dfc765911b797"
+    },
+    {
+      "source": "outputs/secom-feature-audit.json",
+      "destination": "reports/feature_interpretation/secom-feature-audit.json",
+      "sha256": "20309fbbf5f736e7cbce6243f01bf079f4d1cb70d6f76a859d74d9eeb16b7b75"
+    },
+    {
+      "source": "outputs/secom-feature-selected_correlations.csv",
+      "destination": "reports/feature_interpretation/secom-feature-selected_correlations.csv",
+      "sha256": "c42503c373754baaad9a32f4334a440a0198e6d28463f524972cd65141540e0b"
+    },
+    {
+      "source": "outputs/secom-feature-top20_features.csv",
+      "destination": "reports/feature_interpretation/secom-feature-top20_features.csv",
+      "sha256": "f67f3ce504981dd7bfa35b860314fcaead0bcdd7db274a72f306d98d9f25bf54"
+    },
+    {
+      "source": "outputs/secom-final-test-evaluation.md",
+      "destination": "reports/final_evaluation/secom-final-test-evaluation.md",
+      "sha256": "d884214cdde9f3f3aaac10a527f10b46bd0039aec08682ee3262b40bac3c44e9"
+    },
+    {
+      "source": "outputs/secom-final-test-metrics.json",
+      "destination": "reports/final_evaluation/secom-final-test-metrics.json",
+      "sha256": "5044fb3e765f1230f9d50de9bbb36ba4b0b5c02df9c22d89a23b88eb44dddc7e"
+    },
+    {
+      "source": "outputs/secom-frozen-feature-interpretation.md",
+      "destination": "reports/feature_interpretation/secom-frozen-feature-interpretation.md",
+      "sha256": "9850cabb62a32c01424a4cb40ca95b6b141b30c97a6a9094d346ce6ccddf25dd"
+    },
+    {
+      "source": "outputs/secom-frozen-method.json",
+      "destination": "config/frozen_method.json",
+      "sha256": "632a5d22782d46f46afa1c47d4037cf88d863cd75385a21c98456bb7bb2b475e",
+      "pre_cleanup_destination": "reports/final_evaluation/secom-frozen-method.json"
+    },
+    {
+      "source": "outputs/secom-intermediate-threshold-comparison.md",
+      "destination": "reports/comparisons/secom-intermediate-threshold-comparison.md",
+      "sha256": "8a203c59145cc3e2d7a9225e8b1a39293bcbe0047c583d43945e04a1e306252e"
+    },
+    {
+      "source": "outputs/secom-intermediate-threshold-folds.csv",
+      "destination": "reports/results/comparisons/secom-intermediate-threshold-folds.csv",
+      "sha256": "cf5ea817e561d7053ba3390903d498db18241a497a037088e2eed71a3d87290e"
+    },
+    {
+      "source": "outputs/secom-intermediate-thresholds.csv",
+      "destination": "reports/results/comparisons/secom-intermediate-thresholds.csv",
+      "sha256": "350134cb4f4990a352479b5adf7b87170f89abe2dfb2e5fa0189f41908a3cfd9"
+    },
+    {
+      "source": "outputs/secom-model-comparison-summary.csv",
+      "destination": "reports/results/comparisons/secom-model-comparison-summary.csv",
+      "sha256": "f9c64bb37e6de6a31f1cf0b6cfc11beccd871e0377834d39e8af910f94267a9c"
+    },
+    {
+      "source": "outputs/secom-preprocessing-verification.md",
+      "destination": "reports/methodology/secom-preprocessing-verification.md",
+      "sha256": "d2cdedfa4bf75b2cb618b0a91f956167127e5dfb0904c4de5358b7141991ad56"
+    },
+    {
+      "source": "outputs/secom-stronger-model-comparison.md",
+      "destination": "reports/comparisons/secom-stronger-model-comparison.md",
+      "sha256": "5482bf99f1077dc9c4e1d47a85871d8e34f95f0f93adfd3954e29cc48d5d2e85"
+    },
+    {
+      "source": "outputs/secom-stronger-model-fold-metrics.csv",
+      "destination": "reports/results/comparisons/secom-stronger-model-fold-metrics.csv",
+      "sha256": "3e6183524bbeec9c249517cc5d6e1cf5fc33a5e6bdf588d2764a9b46faf09c7a"
+    },
+    {
+      "source": "outputs/secom-structure-inspection.ipynb",
+      "destination": "notebooks/01_dataset_inspection.ipynb",
+      "sha256": "720c5069ca9df8a71e3e69ec400fbc694c118551d90c0a68837a8dc743a64e51"
+    },
+    {
+      "source": "outputs/secom-structure-results.json",
+      "destination": "reports/results/inspection/secom-structure-results.json",
+      "sha256": "a387d4439bbb28a9323c3aeab67973237ac935dc7b7a6b626a4b84f619309b97"
+    },
+    {
+      "source": "outputs/secom-threshold-fold-metrics.csv",
+      "destination": "reports/results/comparisons/secom-threshold-fold-metrics.csv",
+      "sha256": "925456eecb17eab2c6dea95fe0a948d1a711073c618d0938c326891c5f86e4c2"
+    },
+    {
+      "source": "outputs/secom-threshold-tradeoffs.csv",
+      "destination": "reports/results/comparisons/secom-threshold-tradeoffs.csv",
+      "sha256": "2bf50b356a19cd91d7dbe25baf5c0c672bb3a0913a0e9b09e401f8200ec7cfbc"
+    },
+    {
+      "source": "outputs/secom-threshold-tradeoffs.md",
+      "destination": "reports/comparisons/secom-threshold-tradeoffs.md",
+      "sha256": "c4acb20cceb0aca21b0c2998bb6a445989173b47608493d0c0c31ba8d539225c"
+    },
+    {
+      "source": "work/secom-project/README.md",
+      "destination": "reports/methodology/historical-preprocessing-README.md",
+      "sha256": "d35fc216cb7142601991d3a070e9b9902ad49cff39b4677cafbde04a56947414"
+    },
+    {
+      "source": "work/secom-project/requirements.txt",
+      "destination": "reports/methodology/original-requirements.txt",
+      "sha256": "ef70007e7165c106b4e5528e79d17dc8c9a063f3566ff9898b58f316541b44a2"
+    }
+  ],
+  "runtime_versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.6.0",
+    "narwhals": "2.25.0",
+    "cloudpickle": "3.1.2",
+    "python-dateutil": "2.9.0.post0",
+    "six": "1.17.0",
+    "tzdata": "2026.3"
+  },
+  "python": "3.12.14",
+  "models_executed": false,
+  "originals_modified": false,
+  "public_cleanup_note": "Duplicate staging copies consolidated to canonical destinations; original inventory paths retained as pre_cleanup_destination. All original copies preserved outside the staging repository."
+}

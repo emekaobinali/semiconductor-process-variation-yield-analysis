@@ -1,0 +1,15 @@
+# SECOM development-only preprocessing
+
+No predictive model is included. The loader uses only the saved development row membership. It never opens the reserved manifest. Because the original raw files contain both partitions, it streams past non-development lines without tokenizing, recording, or evaluating their values. A synthetic fixture with malformed excluded lines tests this behavior. Timestamps and row identifiers remain metadata outside model inputs.
+
+Install requirements.txt in a project environment. Keep this folder at work/secom-project with the original files at work/secom-inspection/raw and the existing development manifest at splits/development_rows.csv. Run `python verify_preprocessing.py` from this folder. The evidence package omits source data, record memberships, dependencies, and reserved artifacts. Restore only the approved development manifest for a local rerun. No refitting on the test set is authorized.
+
+Use make_preprocessing_pipeline(scale_numeric=False). Each cross-validation fold requires a fresh clone fitted on that fold's training rows. Do not preprocess all development data before cross-validation. The full-development fit in verification is a structural check only; no fitted object or preprocessed full-development table is supplied for cross-validation reuse.
+
+Fit retains measurements with at least two distinct observed training values; medians are computed only for these measurements. It retains missingness indicators that vary within training, including indicators of excluded constant-observed measurements. All-missing and always-observed flags are constant and omitted from model inputs, but the complete original missingness mask is returned separately for audit. Later unexpected missingness is imputed using the frozen training median without adding a new output column. The usefulness of flags has not been evaluated; later compare with/without flags using development data only.
+
+Scaling is optional and off by default until model selection warrants it. If enabled, StandardScaler fits on imputed training numeric measurements only; binary flags remain unscaled. For scientific distributions and variation summaries use original observed measurements, never imputed/scaled outputs as experimental observations. No row deletion, near-constant cutoff, high-missingness cutoff, feature ranking, outcome associations, synthetic oversampling, or threshold tuning is implemented.
+
+Input contract: numeric arrays must retain the original 590-column order. The loader enforces width and builds that order; the transformer validates dimensionality, fitted width, and infinite values. An arbitrary external array with permuted columns of the same width cannot be detected automatically. Feature names are positional identifiers, not physical descriptions.
+
+Every unit-test fixture is synthetic software test data. It is not experimental or simulated semiconductor evidence. Public source: McCann and Johnston (2008), SECOM, UCI Machine Learning Repository, https://doi.org/10.24432/C54305 (CC BY 4.0).

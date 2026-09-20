@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1000" height="670" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 670" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="670"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-670)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1000" height="670" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="40" y="627" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,1254) scale(1,-1)">SECOM  /  SEMICONDUCTOR PROCESS SCREENING</text>
+			<text x="40" y="589" style="font-family: Helvetica-Bold; font-size: 26px;fill: rgb(8%,18%,27%); stroke:none;" transform="translate(0,1178) scale(1,-1)">Catching failures has a review-workload cost</text>
+			<text x="40" y="562" style="font-family: Helvetica; font-size: 13px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,1124) scale(1,-1)">Development out-of-fold results  |  1,253 records: 83 failures, 1,170 passes</text>
+			<path d="M 95,180 L 920,180 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="76.328" y="176.0" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,352) scale(1,-1)">0</text>
+			<path d="M 95,259.518072 L 920,259.518072 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="69.656" y="255.51807228915663" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,511) scale(1,-1)">20</text>
+			<path d="M 95,339.036145 L 920,339.036145 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="69.656" y="335.03614457831327" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,670) scale(1,-1)">40</text>
+			<path d="M 95,418.554217 L 920,418.554217 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="69.656" y="414.5542168674699" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,829) scale(1,-1)">60</text>
+			<path d="M 95,510 L 920,510 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="69.656" y="506.0" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,1012) scale(1,-1)">83</text>
+			<text x="91.664" y="157" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,314) scale(1,-1)">0</text>
+			<text x="268.32533333333333" y="157" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,314) scale(1,-1)">100</text>
+			<text x="451.65866666666665" y="157" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,314) scale(1,-1)">200</text>
+			<text x="634.992" y="157" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,314) scale(1,-1)">300</text>
+			<text x="818.3253333333332" y="157" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,314) scale(1,-1)">400</text>
+			<text x="909.992" y="157" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,314) scale(1,-1)">450</text>
+			<path d="M 95,180 L 920,180 Z" style="stroke: rgb(33%,40%,46%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 95,510 L 95,180 Z" style="stroke: rgb(33%,40%,46%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="95" y="528" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(8%,18%,27%); stroke:none;" transform="translate(0,1056) scale(1,-1)">Failures caught (of 83)</text>
+			<text x="369.181" y="130" style="font-family: Helvetica; font-size: 14px;fill: rgb(8%,18%,27%); stroke:none;" transform="translate(0,260) scale(1,-1)">False alarms: passing records sent for review</text>
+			<circle cx="307.66666666666663" cy="303.2530120481928" r="6" style="stroke: rgb(13%,40%,62%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="282.66666666666663" y="270.2530120481928" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(13%,40%,62%); stroke:none;" transform="translate(0,540) scale(1,-1)">Gradient boosting 0.25</text>
+			<text x="282.66666666666663" y="253.25301204819277" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,506) scale(1,-1)">31 caught / 116 false alarms</text>
+			<circle cx="549.6666666666667" cy="370.8433734939759" r="6" style="stroke: rgb(13%,40%,62%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="479.66666666666674" y="335.8433734939759" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(13%,40%,62%); stroke:none;" transform="translate(0,671) scale(1,-1)">Random Forest 0.40</text>
+			<text x="479.66666666666674" y="318.8433734939759" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,637) scale(1,-1)">48 caught / 248 false alarms</text>
+			<circle cx="753.1666666666667" cy="370.8433734939759" r="6" style="stroke: rgb(33%,40%,46%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="728.1666666666667" y="400.8433734939759" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,801) scale(1,-1)">Shallow tree 0.50</text>
+			<text x="728.1666666666667" y="383.8433734939759" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,767) scale(1,-1)">48 caught / 359 false alarms</text>
+			<polygon points="804.5 447.4337, 813.5 438.4337, 804.5 429.4337, 795.5 438.4337" style="stroke: rgb(8%,47%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,47%,45%); fill-rule: evenodd;"/>
+			<text x="560.5" y="473.433734939759" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(8%,47%,45%); stroke:none;" transform="translate(0,946) scale(1,-1)">Random Forest 0.35  SELECTED</text>
+			<text x="560.5" y="456.433734939759" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,912) scale(1,-1)">65 caught / 387 false alarms</text>
+			<text x="40" y="85" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(8%,47%,45%); stroke:none;" transform="translate(0,170) scale(1,-1)">Selected RF vs tree: +17 failures caught, +28 false alarms.</text>
+			<text x="40" y="61" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,122) scale(1,-1)">Selected RF vs RF 0.40: +17 caught, +139 false alarms. All candidates shown exclude indicators.</text>
+			<text x="40" y="30" style="font-family: Helvetica; font-size: 11px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,60) scale(1,-1)">Source: saved intermediate-threshold and model-comparison tables. Selection evidence, not independent validation.</text>
+		</g>
+	</g>
+</svg>

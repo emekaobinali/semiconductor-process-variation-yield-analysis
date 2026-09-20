@@ -1,0 +1,182 @@
+[
+  {
+    "model": "logistic_C0.1",
+    "indicators": false,
+    "fold": 1,
+    "warnings": []
+  },
+  {
+    "model": "logistic_C0.1",
+    "indicators": true,
+    "fold": 1,
+    "warnings": []
+  },
+  {
+    "model": "small_forest",
+    "indicators": false,
+    "fold": 1,
+    "warnings": []
+  },
+  {
+    "model": "small_forest",
+    "indicators": true,
+    "fold": 1,
+    "warnings": []
+  },
+  {
+    "model": "shallow_boosting",
+    "indicators": false,
+    "fold": 1,
+    "warnings": []
+  },
+  {
+    "model": "shallow_boosting",
+    "indicators": true,
+    "fold": 1,
+    "warnings": []
+  },
+  {
+    "model": "logistic_C0.1",
+    "indicators": false,
+    "fold": 2,
+    "warnings": []
+  },
+  {
+    "model": "logistic_C0.1",
+    "indicators": true,
+    "fold": 2,
+    "warnings": []
+  },
+  {
+    "model": "small_forest",
+    "indicators": false,
+    "fold": 2,
+    "warnings": []
+  },
+  {
+    "model": "small_forest",
+    "indicators": true,
+    "fold": 2,
+    "warnings": []
+  },
+  {
+    "model": "shallow_boosting",
+    "indicators": false,
+    "fold": 2,
+    "warnings": []
+  },
+  {
+    "model": "shallow_boosting",
+    "indicators": true,
+    "fold": 2,
+    "warnings": []
+  },
+  {
+    "model": "logistic_C0.1",
+    "indicators": false,
+    "fold": 3,
+    "warnings": []
+  },
+  {
+    "model": "logistic_C0.1",
+    "indicators": true,
+    "fold": 3,
+    "warnings": []
+  },
+  {
+    "model": "small_forest",
+    "indicators": false,
+    "fold": 3,
+    "warnings": []
+  },
+  {
+    "model": "small_forest",
+    "indicators": true,
+    "fold": 3,
+    "warnings": []
+  },
+  {
+    "model": "shallow_boosting",
+    "indicators": false,
+    "fold": 3,
+    "warnings": []
+  },
+  {
+    "model": "shallow_boosting",
+    "indicators": true,
+    "fold": 3,
+    "warnings": []
+  },
+  {
+    "model": "logistic_C0.1",
+    "indicators": false,
+    "fold": 4,
+    "warnings": []
+  },
+  {
+    "model": "logistic_C0.1",
+    "indicators": true,
+    "fold": 4,
+    "warnings": []
+  },
+  {
+    "model": "small_forest",
+    "indicators": false,
+    "fold": 4,
+    "warnings": []
+  },
+  {
+    "model": "small_forest",
+    "indicators": true,
+    "fold": 4,
+    "warnings": []
+  },
+  {
+    "model": "shallow_boosting",
+    "indicators": false,
+    "fold": 4,
+    "warnings": []
+  },
+  {
+    "model": "shallow_boosting",
+    "indicators": true,
+    "fold": 4,
+    "warnings": []
+  },
+  {
+    "model": "logistic_C0.1",
+    "indicators": false,
+    "fold": 5,
+    "warnings": []
+  },
+  {
+    "model": "logistic_C0.1",
+    "indicators": true,
+    "fold": 5,
+    "warnings": []
+  },
+  {
+    "model": "small_forest",
+    "indicators": false,
+    "fold": 5,
+    "warnings": []
+  },
+  {
+    "model": "small_forest",
+    "indicators": true,
+    "fold": 5,
+    "warnings": []
+  },
+  {
+    "model": "shallow_boosting",
+    "indicators": false,
+    "fold": 5,
+    "warnings": []
+  },
+  {
+    "model": "shallow_boosting",
+    "indicators": true,
+    "fold": 5,
+    "warnings": []
+  }
+]

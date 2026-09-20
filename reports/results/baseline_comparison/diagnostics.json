@@ -1,0 +1,292 @@
+[
+  {
+    "model": "reference",
+    "indicators": false,
+    "fold": 1,
+    "columns": 468,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "reference",
+    "indicators": true,
+    "fold": 1,
+    "columns": 970,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "logistic",
+    "indicators": false,
+    "fold": 1,
+    "columns": 468,
+    "warnings": [],
+    "iterations": [
+      63
+    ],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "logistic",
+    "indicators": true,
+    "fold": 1,
+    "columns": 970,
+    "warnings": [],
+    "iterations": [
+      107
+    ],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "tree",
+    "indicators": false,
+    "fold": 1,
+    "columns": 468,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": 0
+  },
+  {
+    "model": "tree",
+    "indicators": true,
+    "fold": 1,
+    "columns": 970,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": 0
+  },
+  {
+    "model": "reference",
+    "indicators": false,
+    "fold": 2,
+    "columns": 468,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "reference",
+    "indicators": true,
+    "fold": 2,
+    "columns": 974,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "logistic",
+    "indicators": false,
+    "fold": 2,
+    "columns": 468,
+    "warnings": [],
+    "iterations": [
+      73
+    ],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "logistic",
+    "indicators": true,
+    "fold": 2,
+    "columns": 974,
+    "warnings": [],
+    "iterations": [
+      117
+    ],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "tree",
+    "indicators": false,
+    "fold": 2,
+    "columns": 468,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": 0
+  },
+  {
+    "model": "tree",
+    "indicators": true,
+    "fold": 2,
+    "columns": 974,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": 0
+  },
+  {
+    "model": "reference",
+    "indicators": false,
+    "fold": 3,
+    "columns": 468,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "reference",
+    "indicators": true,
+    "fold": 3,
+    "columns": 974,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "logistic",
+    "indicators": false,
+    "fold": 3,
+    "columns": 468,
+    "warnings": [],
+    "iterations": [
+      63
+    ],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "logistic",
+    "indicators": true,
+    "fold": 3,
+    "columns": 974,
+    "warnings": [],
+    "iterations": [
+      107
+    ],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "tree",
+    "indicators": false,
+    "fold": 3,
+    "columns": 468,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": 0
+  },
+  {
+    "model": "tree",
+    "indicators": true,
+    "fold": 3,
+    "columns": 974,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": 0
+  },
+  {
+    "model": "reference",
+    "indicators": false,
+    "fold": 4,
+    "columns": 468,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "reference",
+    "indicators": true,
+    "fold": 4,
+    "columns": 918,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "logistic",
+    "indicators": false,
+    "fold": 4,
+    "columns": 468,
+    "warnings": [],
+    "iterations": [
+      60
+    ],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "logistic",
+    "indicators": true,
+    "fold": 4,
+    "columns": 918,
+    "warnings": [],
+    "iterations": [
+      102
+    ],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "tree",
+    "indicators": false,
+    "fold": 4,
+    "columns": 468,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": 0
+  },
+  {
+    "model": "tree",
+    "indicators": true,
+    "fold": 4,
+    "columns": 918,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": 0
+  },
+  {
+    "model": "reference",
+    "indicators": false,
+    "fold": 5,
+    "columns": 468,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "reference",
+    "indicators": true,
+    "fold": 5,
+    "columns": 974,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "logistic",
+    "indicators": false,
+    "fold": 5,
+    "columns": 468,
+    "warnings": [],
+    "iterations": [
+      63
+    ],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "logistic",
+    "indicators": true,
+    "fold": 5,
+    "columns": 974,
+    "warnings": [],
+    "iterations": [
+      101
+    ],
+    "indicator_split_nodes": null
+  },
+  {
+    "model": "tree",
+    "indicators": false,
+    "fold": 5,
+    "columns": 468,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": 0
+  },
+  {
+    "model": "tree",
+    "indicators": true,
+    "fold": 5,
+    "columns": 974,
+    "warnings": [],
+    "iterations": [],
+    "indicator_split_nodes": 0
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-09-06T20:47:59.240010+00:00",
+  "seed": 42,
+  "python_version": "3.12.14",
+  "algorithm": "Python random.Random(42); ascending labels; shuffle each class; allocate ceil(0.2*N) test rows using proportional largest remainders; shuffle each final partition. Not sklearn train_test_split. Saved manifests are authoritative.",
+  "raw_relative_to_split_directory": "../../secom-inspection/raw",
+  "raw_files": {
+    "secom.data": {
+      "bytes": 5389983,
+      "sha256": "20f0e7ee434f7dcbae0eea9ffff009a2b57f42d6b0dc9a5bd4f00782c0a3374c"
+    },
+    "secom.names": {
+      "bytes": 4223,
+      "sha256": "6d91b0b46cdee03064ee3e3112f937c1b3f7fcd9933575794ec07974e6f1ea59"
+    },
+    "secom_labels.data": {
+      "bytes": 40638,
+      "sha256": "126884cf453705c9e61a903fe906f0665a3b45ce3639e621edc5c93c89627e03"
+    }
+  },
+  "development": {
+    "records": 1253,
+    "passes": 1170,
+    "failures": 83,
+    "manifest_sha256": "500603f93e5c527d551db48a1db856ab4993148184000d315d366a92d901d064"
+  },
+  "reserved_test": {
+    "records": 314,
+    "passes": 293,
+    "failures": 21,
+    "manifest_sha256": "caa001e90f07127c37f70b8255546c85c4a89d89e6b43bf59cf484b8bc2f51ef"
+  },
+  "checks": {
+    "complete_coverage": true,
+    "no_overlap": true,
+    "no_duplicate_ids": true,
+    "deterministic_reproduction": true,
+    "original_hashes_match": true
+  },
+  "test_policy": "After this creation-time allocation check, do not inspect, transform, fit on, select using, tune using, or evaluate reserved test records until the full method is frozen and the user authorizes evaluation.",
+  "measurement_matrix_loaded": false,
+  "preprocessing_started": false,
+  "chronological_split_created": false
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1000" height="690" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 690" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="690"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-690)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1000" height="690" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="40" y="647" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,1294) scale(1,-1)">SECOM  /  SEMICONDUCTOR PROCESS SCREENING</text>
+			<text x="40" y="609" style="font-family: Helvetica-Bold; font-size: 26px;fill: rgb(8%,18%,27%); stroke:none;" transform="translate(0,1218) scale(1,-1)">Final test: useful signal, substantial false alarms</text>
+			<text x="40" y="582" style="font-family: Helvetica; font-size: 13px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,1164) scale(1,-1)">Frozen Random Forest  |  No missingness indicators  |  Score threshold 0.35</text>
+			<text x="515.324" y="536" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,1072) scale(1,-1)">MODEL SCREENING DECISION</text>
+			<text x="364.531" y="505" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(8%,18%,27%); stroke:none;" transform="translate(0,1010) scale(1,-1)">Predicted pass</text>
+			<text x="699.894" y="505" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(8%,18%,27%); stroke:none;" transform="translate(0,1010) scale(1,-1)">Flagged for review</text>
+			<text x="40" y="424" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(8%,18%,27%); stroke:none;" transform="translate(0,848) scale(1,-1)">Actual pass</text>
+			<text x="40" y="402" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,804) scale(1,-1)">293 records</text>
+			<text x="40" y="273" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(8%,18%,27%); stroke:none;" transform="translate(0,546) scale(1,-1)">Actual failure</text>
+			<text x="40" y="251" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,502) scale(1,-1)">21 records</text>
+			<rect x="250" y="340" width="340" height="145" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,94%); fill-rule: evenodd;"/>
+			<text x="381.636" y="415" style="font-family: Helvetica-Bold; font-size: 46px;fill: rgb(8%,47%,45%); stroke:none;" transform="translate(0,830) scale(1,-1)">191</text>
+			<text x="332.055" y="377" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,47%,45%); stroke:none;" transform="translate(0,754) scale(1,-1)">Correctly identified passes</text>
+			<rect x="600" y="340" width="340" height="145" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,94%,89%); fill-rule: evenodd;"/>
+			<text x="731.636" y="415" style="font-family: Helvetica-Bold; font-size: 46px;fill: rgb(70%,40%,12%); stroke:none;" transform="translate(0,830) scale(1,-1)">102</text>
+			<text x="727.0775" y="377" style="font-family: Helvetica; font-size: 15px;fill: rgb(70%,40%,12%); stroke:none;" transform="translate(0,754) scale(1,-1)">False alarms</text>
+			<rect x="250" y="185" width="340" height="145" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,94%,89%); fill-rule: evenodd;"/>
+			<text x="407.212" y="260" style="font-family: Helvetica-Bold; font-size: 46px;fill: rgb(70%,40%,12%); stroke:none;" transform="translate(0,520) scale(1,-1)">7</text>
+			<text x="369.99" y="222" style="font-family: Helvetica; font-size: 15px;fill: rgb(70%,40%,12%); stroke:none;" transform="translate(0,444) scale(1,-1)">Missed failures</text>
+			<rect x="600" y="185" width="340" height="145" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,94%); fill-rule: evenodd;"/>
+			<text x="744.424" y="260" style="font-family: Helvetica-Bold; font-size: 46px;fill: rgb(8%,47%,45%); stroke:none;" transform="translate(0,520) scale(1,-1)">14</text>
+			<text x="718.73" y="222" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,47%,45%); stroke:none;" transform="translate(0,444) scale(1,-1)">Failures caught</text>
+			<text x="40" y="140" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(8%,18%,27%); stroke:none;" transform="translate(0,280) scale(1,-1)">Recall 66.7%   |   Precision 12.1%   |   Specificity 65.2%</text>
+			<text x="40" y="109" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,27%); stroke:none;" transform="translate(0,218) scale(1,-1)">Balanced accuracy 65.9%   |   Average precision 0.1872</text>
+			<text x="40" y="74" style="font-family: Helvetica-Bold; font-size: 14px;fill: rgb(70%,40%,12%); stroke:none;" transform="translate(0,148) scale(1,-1)">116 of 314 records flagged; only 14 flags were failures. Not production-ready.</text>
+			<text x="40" y="36" style="font-family: Helvetica; font-size: 11px;fill: rgb(33%,40%,46%); stroke:none;" transform="translate(0,72) scale(1,-1)">Source: saved one-time reserved-test metrics. Counts, not row-normalized percentages. No test replay performed.</text>
+		</g>
+	</g>
+</svg>

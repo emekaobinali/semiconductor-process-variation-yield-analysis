@@ -1,0 +1,67 @@
+{
+  "frozen_utc": "2026-09-20T14:37:14.578564+00:00",
+  "authorization": "User approved Random Forest, no missingness indicators, threshold 0.35, full-development fit and one reserved-test evaluation.",
+  "classifier": "RandomForestClassifier",
+  "model_parameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": 5,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 10,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 100,
+    "n_jobs": 1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "threshold": 0.35,
+  "decision_rule": "failure score >= 0.35",
+  "failure_class": 1,
+  "source_labels": {
+    "-1": "pass",
+    "1": "failure"
+  },
+  "preprocessing": "Original 590-column order. Fit MeasurementPreparation(scale_numeric=False) on development only; retain columns with >1 distinct observed development value; median-impute from development; pass only numeric columns to classifier. All computed missingness indicators are excluded by the same output slice used in validation.",
+  "scaling": false,
+  "missingness_indicators_in_classifier": false,
+  "feature_ranking_or_selection": "Only approved development-derived constant/all-missing filtering; no additional selection.",
+  "class_weighting": "balanced, computed from full-development outcomes by the estimator",
+  "development_manifest_sha256": "500603f93e5c527d551db48a1db856ab4993148184000d315d366a92d901d064",
+  "reserved_manifest_expected_sha256": "caa001e90f07127c37f70b8255546c85c4a89d89e6b43bf59cf484b8bc2f51ef",
+  "expected_source_hashes": {
+    "secom.data": {
+      "bytes": 5389983,
+      "sha256": "20f0e7ee434f7dcbae0eea9ffff009a2b57f42d6b0dc9a5bd4f00782c0a3374c"
+    },
+    "secom.names": {
+      "bytes": 4223,
+      "sha256": "6d91b0b46cdee03064ee3e3112f937c1b3f7fcd9933575794ec07974e6f1ea59"
+    },
+    "secom_labels.data": {
+      "bytes": 40638,
+      "sha256": "126884cf453705c9e61a903fe906f0665a3b45ce3639e621edc5c93c89627e03"
+    }
+  },
+  "preprocessing_source_sha256": "160c0f36ef2ae0c606758007f55b6290fef84bccf86a1610a691d5e4e7dde281",
+  "evaluation_script_sha256": "a9efd853770215fa1bf71e0f1ec51e1187becebfb4e15b9ca35cab948e245a24",
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.6.0",
+    "narwhals": "2.25.0",
+    "cloudpickle": "3.1.2"
+  },
+  "python": "3.12.14",
+  "evaluation": "One reserved-set predict_proba call after fitting and persisting model; no calibration, tuning, threshold revision, or subsequent fit."
+}

@@ -1,0 +1,26 @@
+{
+  "duplicate_to_canonical": {
+    "reports/final_evaluation/secom-frozen-method.json": "config/frozen_method.json",
+    "reports/final_evaluation/reserved_test_metrics.json": "reports/final_evaluation/secom-final-test-metrics.json",
+    "reports/feature_interpretation/working-results/all_feature_importances.csv": "reports/feature_interpretation/secom-feature-all_feature_importances.csv",
+    "reports/feature_interpretation/working-results/audit.json": "reports/feature_interpretation/secom-feature-audit.json",
+    "reports/feature_interpretation/working-results/selected_correlations.csv": "reports/feature_interpretation/secom-feature-selected_correlations.csv",
+    "reports/feature_interpretation/working-results/top20_features.csv": "reports/feature_interpretation/secom-feature-top20_features.csv",
+    "reports/results/comparisons/secom-baseline-fold-metrics.csv": "reports/results/baseline_comparison/fold_metrics.csv",
+    "reports/results/inspection/original-summary.json": "reports/results/inspection/secom-structure-results.json"
+  },
+  "removed_empty_placeholder": "figures/.gitkeep",
+  "canonical_sha256": {
+    "config/frozen_method.json": "632a5d22782d46f46afa1c47d4037cf88d863cd75385a21c98456bb7bb2b475e",
+    "reports/final_evaluation/secom-final-test-metrics.json": "5044fb3e765f1230f9d50de9bbb36ba4b0b5c02df9c22d89a23b88eb44dddc7e",
+    "reports/feature_interpretation/secom-feature-all_feature_importances.csv": "7bd1722270ebb18bddfbb6aae495a00434176ca9aa2bfe94419dfc765911b797",
+    "reports/feature_interpretation/secom-feature-audit.json": "20309fbbf5f736e7cbce6243f01bf079f4d1cb70d6f76a859d74d9eeb16b7b75",
+    "reports/feature_interpretation/secom-feature-selected_correlations.csv": "c42503c373754baaad9a32f4334a440a0198e6d28463f524972cd65141540e0b",
+    "reports/feature_interpretation/secom-feature-top20_features.csv": "f67f3ce504981dd7bfa35b860314fcaead0bcdd7db274a72f306d98d9f25bf54",
+    "reports/results/baseline_comparison/fold_metrics.csv": "b2d3f47a7b51210edb3af00b53ef3a9ce593125b4427f5556af04c77ff734ef8",
+    "reports/results/inspection/secom-structure-results.json": "a387d4439bbb28a9323c3aeab67973237ac935dc7b7a6b626a4b84f619309b97"
+  },
+  "archive_location": "Sibling directory secom-prepublication-cleanup-archive (outside repository)",
+  "scientific_recomputation": false,
+  "original_workspace_modified": false
+}

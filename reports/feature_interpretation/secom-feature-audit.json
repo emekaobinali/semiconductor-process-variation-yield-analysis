@@ -1,0 +1,48 @@
+{
+  "model_sha256": "0ff4125f395f430ea87c1e728a284d09cd0369e6780627d45a413102ef30ad71",
+  "development_n": 1253,
+  "development_failures": 83,
+  "evaluation": "IN-SAMPLE development reliance only; final estimator trained on these records; no held-out importance available without refitting",
+  "training_average_precision_reference": 0.9938286506055523,
+  "permutation_repeats": 5,
+  "seed": 42,
+  "top10_overlap": [
+    "measurement_034",
+    "measurement_104",
+    "measurement_131",
+    "measurement_511"
+  ],
+  "top20_overlap": [
+    "measurement_034",
+    "measurement_104",
+    "measurement_126",
+    "measurement_131",
+    "measurement_511",
+    "measurement_564"
+  ],
+  "builtin_top20": [
+    "measurement_060",
+    "measurement_511",
+    "measurement_131",
+    "measurement_104",
+    "measurement_248",
+    "measurement_478",
+    "measurement_034",
+    "measurement_065",
+    "measurement_574",
+    "measurement_057",
+    "measurement_154",
+    "measurement_126",
+    "measurement_520",
+    "measurement_342",
+    "measurement_206",
+    "measurement_112",
+    "measurement_427",
+    "measurement_066",
+    "measurement_273",
+    "measurement_564"
+  ],
+  "model_unchanged": true,
+  "reserved_test_accessed": false,
+  "notes": "Only development manifest rows parsed from shared raw files. No fit calls. Threshold remains .35. Shuffle SD is not a confidence interval."
+}

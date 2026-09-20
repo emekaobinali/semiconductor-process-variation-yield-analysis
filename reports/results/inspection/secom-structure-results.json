@@ -1,0 +1,71 @@
+{
+  "source_url": "https://archive.ics.uci.edu/static/public/179/secom.zip",
+  "inspection_utc": "2026-09-06T20:31:29.288409+00:00",
+  "files": {
+    "secom.data": {
+      "bytes": 5389983,
+      "sha256": "20f0e7ee434f7dcbae0eea9ffff009a2b57f42d6b0dc9a5bd4f00782c0a3374c"
+    },
+    "secom.names": {
+      "bytes": 4223,
+      "sha256": "6d91b0b46cdee03064ee3e3112f937c1b3f7fcd9933575794ec07974e6f1ea59"
+    },
+    "secom_labels.data": {
+      "bytes": 40638,
+      "sha256": "126884cf453705c9e61a903fe906f0665a3b45ce3639e621edc5c93c89627e03"
+    }
+  },
+  "data_rows": 1567,
+  "measurement_columns": 590,
+  "row_width_counts": {
+    "590": 1567
+  },
+  "blank_data_lines": 0,
+  "blank_label_lines": 0,
+  "label_rows": 1567,
+  "label_counts": {
+    "-1": 1463,
+    "1": 104
+  },
+  "fail_fraction": 0.06636885768985322,
+  "total_measurement_cells": 924530,
+  "missing_cells": 41951,
+  "missing_cell_fraction": 0.04537548808583821,
+  "missing_tokens": {
+    "NaN": 41951
+  },
+  "infinite_values": 0,
+  "columns_with_missing": 538,
+  "columns_without_missing": 52,
+  "all_missing_columns_1based": [],
+  "constant_observed_columns": 116,
+  "constant_fully_populated_columns": 0,
+  "constant_with_missing_columns": 116,
+  "columns_with_multiple_observed_values": 474,
+  "rows_with_missing": 1567,
+  "all_missing_rows": 0,
+  "missing_per_row_min_max": [
+    4,
+    152
+  ],
+  "date_min": "2008-07-19 11:55:00",
+  "date_max": "2008-10-17 06:07:00",
+  "first_date": "2008-07-19 11:55:00",
+  "last_date": "2008-10-17 06:07:00",
+  "timestamps_nondecreasing": true,
+  "adjacent_timestamp_reversals": 0,
+  "unique_timestamps": 1534,
+  "timestamp_groups_with_ties": 32,
+  "rows_in_timestamp_ties": 65,
+  "timestamp_duplicate_excess": 33,
+  "duplicate_measurement_row_excess": 0,
+  "duplicate_full_record_excess": 0,
+  "first_row_preview": [
+    "3030.93",
+    "2564",
+    "2187.7333",
+    "1411.1265",
+    "1.3602"
+  ],
+  "first_label_line": "-1 \"19/07/2008 11:55:00\""
+}

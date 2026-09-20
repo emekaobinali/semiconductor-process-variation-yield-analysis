@@ -1,0 +1,22 @@
+{
+  "sources_sha256": {
+    "reports/results/comparisons/secom-intermediate-thresholds.csv": "350134cb4f4990a352479b5adf7b87170f89abe2dfb2e5fa0189f41908a3cfd9",
+    "reports/results/comparisons/secom-model-comparison-summary.csv": "f9c64bb37e6de6a31f1cf0b6cfc11beccd871e0377834d39e8af910f94267a9c",
+    "reports/feature_interpretation/secom-feature-all_feature_importances.csv": "7bd1722270ebb18bddfbb6aae495a00434176ca9aa2bfe94419dfc765911b797",
+    "reports/final_evaluation/secom-final-test-metrics.json": "5044fb3e765f1230f9d50de9bbb36ba4b0b5c02df9c22d89a23b88eb44dddc7e",
+    "reports/summaries/technical-engineering-summary.md": "f34db90fe85a85f16a3f5fd4ec3d2ef2479bd5d6f3694fc7f5980d75e89e18b7",
+    "config/frozen_method.json": "632a5d22782d46f46afa1c47d4037cf88d863cd75385a21c98456bb7bb2b475e"
+  },
+  "source_data_modified": false,
+  "models_loaded": false,
+  "new_scientific_analysis": false,
+  "formats": [
+    "PNG (2500 px wide)",
+    "SVG (vector)"
+  ],
+  "renderer_versions": {
+    "reportlab": "4.4.9",
+    "pypdfium2": "5.13.0"
+  },
+  "README_edits": "Three figure placeholder replacements plus one figure immediately under Feature-interpretation summary. No prose changes."
+}

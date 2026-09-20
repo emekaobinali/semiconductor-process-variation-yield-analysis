@@ -1,0 +1,20 @@
+{
+  "records": 314,
+  "failures": 21,
+  "passes": 293,
+  "TP": 14,
+  "FN": 7,
+  "FP": 102,
+  "TN": 191,
+  "flagged": 116,
+  "recall": 0.6666666666666666,
+  "precision": 0.1206896551724138,
+  "specificity": 0.6518771331058021,
+  "balanced_accuracy": 0.6592718998862344,
+  "average_precision": 0.1871543382134646,
+  "recall_95pct_wilson_interval": [
+    0.4537345197425524,
+    0.8280524739491653
+  ],
+  "recall_interval_assumption": "Independent Bernoulli outcomes; unknown production dependencies may invalidate nominal coverage. Conditional on this fitted model; does not include training/selection uncertainty."
+}

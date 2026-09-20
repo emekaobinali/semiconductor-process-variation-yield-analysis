@@ -1,0 +1,170 @@
+[
+  {
+    "model": "reference",
+    "indicators": false,
+    "mean": {
+      "AP": 0.06623745019920318,
+      "recall": 0.0,
+      "precision": null,
+      "specificity": 1.0,
+      "balanced_accuracy": 0.5
+    },
+    "fold_sd": {
+      "AP": 0.0020425032423300187,
+      "recall": 0.0,
+      "precision": null,
+      "specificity": 0.0,
+      "balanced_accuracy": 0.0
+    },
+    "pooled": {
+      "recall": 0.0,
+      "precision": null,
+      "specificity": 1.0,
+      "balanced_accuracy": 0.5,
+      "TN": 1170,
+      "FP": 0,
+      "FN": 83,
+      "TP": 0
+    }
+  },
+  {
+    "model": "reference",
+    "indicators": true,
+    "mean": {
+      "AP": 0.06623745019920318,
+      "recall": 0.0,
+      "precision": null,
+      "specificity": 1.0,
+      "balanced_accuracy": 0.5
+    },
+    "fold_sd": {
+      "AP": 0.0020425032423300187,
+      "recall": 0.0,
+      "precision": null,
+      "specificity": 0.0,
+      "balanced_accuracy": 0.0
+    },
+    "pooled": {
+      "recall": 0.0,
+      "precision": null,
+      "specificity": 1.0,
+      "balanced_accuracy": 0.5,
+      "TN": 1170,
+      "FP": 0,
+      "FN": 83,
+      "TP": 0
+    }
+  },
+  {
+    "model": "logistic",
+    "indicators": false,
+    "mean": {
+      "AP": 0.12939816418835842,
+      "recall": 0.21764705882352944,
+      "precision": 0.1261286383867029,
+      "specificity": 0.8940170940170941,
+      "balanced_accuracy": 0.5558320764203117
+    },
+    "fold_sd": {
+      "AP": 0.026388809161360386,
+      "recall": 0.0583274115465127,
+      "precision": 0.025198476128814172,
+      "specificity": 0.007022084070579085,
+      "balanced_accuracy": 0.02848498330313907
+    },
+    "pooled": {
+      "recall": 0.21686746987951808,
+      "precision": 0.1267605633802817,
+      "specificity": 0.8940170940170941,
+      "balanced_accuracy": 0.555442281948306,
+      "TN": 1046,
+      "FP": 124,
+      "FN": 65,
+      "TP": 18
+    }
+  },
+  {
+    "model": "logistic",
+    "indicators": true,
+    "mean": {
+      "AP": 0.1281445747458083,
+      "recall": 0.22867647058823531,
+      "precision": 0.14132549857549856,
+      "specificity": 0.9,
+      "balanced_accuracy": 0.5643382352941175
+    },
+    "fold_sd": {
+      "AP": 0.027422188031194256,
+      "recall": 0.047963500756765975,
+      "precision": 0.03519733896374112,
+      "specificity": 0.013378184480767975,
+      "balanced_accuracy": 0.028549651659549598
+    },
+    "pooled": {
+      "recall": 0.2289156626506024,
+      "precision": 0.13970588235294118,
+      "specificity": 0.9,
+      "balanced_accuracy": 0.5644578313253013,
+      "TN": 1053,
+      "FP": 117,
+      "FN": 64,
+      "TP": 19
+    }
+  },
+  {
+    "model": "tree",
+    "indicators": false,
+    "mean": {
+      "AP": 0.10715937337231632,
+      "recall": 0.5794117647058823,
+      "precision": 0.1202743867785128,
+      "specificity": 0.6931623931623931,
+      "balanced_accuracy": 0.6362870789341378
+    },
+    "fold_sd": {
+      "AP": 0.020557491877924015,
+      "recall": 0.10886326778424557,
+      "precision": 0.023746661952064464,
+      "specificity": 0.061067763001354705,
+      "balanced_accuracy": 0.05760652601047754
+    },
+    "pooled": {
+      "recall": 0.5783132530120482,
+      "precision": 0.11793611793611794,
+      "specificity": 0.6931623931623931,
+      "balanced_accuracy": 0.6357378230872206,
+      "TN": 811,
+      "FP": 359,
+      "FN": 35,
+      "TP": 48
+    }
+  },
+  {
+    "model": "tree",
+    "indicators": true,
+    "mean": {
+      "AP": 0.10714059990548278,
+      "recall": 0.5794117647058823,
+      "precision": 0.1202743867785128,
+      "specificity": 0.6931623931623931,
+      "balanced_accuracy": 0.6362870789341378
+    },
+    "fold_sd": {
+      "AP": 0.020517225741469965,
+      "recall": 0.10886326778424557,
+      "precision": 0.023746661952064464,
+      "specificity": 0.061067763001354705,
+      "balanced_accuracy": 0.05760652601047754
+    },
+    "pooled": {
+      "recall": 0.5783132530120482,
+      "precision": 0.11793611793611794,
+      "specificity": 0.6931623931623931,
+      "balanced_accuracy": 0.6357378230872206,
+      "TN": 811,
+      "FP": 359,
+      "FN": 35,
+      "TP": 48
+    }
+  }
+]

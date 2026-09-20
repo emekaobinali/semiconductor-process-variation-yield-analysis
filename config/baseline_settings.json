@@ -1,0 +1,9 @@
+{
+  "reference": "DummyClassifier(strategy=prior); same fold prevalence score for every record",
+  "logistic": "LogisticRegression(C=1, solver=lbfgs, class_weight=balanced, max_iter=2000); numeric standard scaling; unscaled binary indicators",
+  "tree": "DecisionTreeClassifier(max_depth=3, min_samples_leaf=20, class_weight=balanced, random_state=42); no scaling",
+  "threshold": 0.5,
+  "folds": "existing saved five-fold development assignments",
+  "selection": "No tuning, searches, calibration, feature ranking, threshold optimization, or full-development predictive refit.",
+  "indicator_comparison": "Same fitted training-only preprocessing; omit only appended indicator columns in without condition."
+}
