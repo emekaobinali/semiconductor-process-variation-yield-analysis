@@ -211,6 +211,31 @@ The main engineering contribution is a transparent evaluation of detection versu
 
 Start with the [technical summary](reports/summaries/technical-engineering-summary.md), [short recruiter summary](reports/summaries/recruiter-summary.md), and saved reports. These can be reviewed without installing packages or accessing raw data.
 
+### Interactive portfolio app (local)
+
+The [Streamlit app](streamlit_app.py) presents the saved results across eight pages: Home / Overview, Dataset & Workflow, Model Comparison, Threshold Tradeoffs, Final Test Results, Confusion Matrix, Feature Interpretation, and Limitations.
+
+From the repository root, use a separate environment for the app:
+
+```text
+python -m venv .venv-app
+# Activate .venv-app using the command appropriate for your shell.
+python -m pip install -r requirements-app.txt
+python -m streamlit run streamlit_app.py
+```
+
+**Research portfolio project — useful screening signal, not production-ready.** The app reads public aggregate results and existing figures only. Threshold controls select previously evaluated development combinations; final-test results remain static. No raw data, fitted model, prediction files, or scientific workflows are needed. Features remain anonymous, importance is not causal, and permutation importance is labeled as an in-sample diagnostic.
+
+App installation was verified in an isolated Python 3.12 environment on Windows. Run its seven presentation/data tests with:
+
+```text
+python -m unittest tests.test_app_data -v
+```
+
+The app has not been deployed. Its separate dependencies do not replace the scientific environment below or establish full scientific reproduction.
+
+### Scientific environment and checks
+
 The verified working environment used **Python 3.12.14**. For an independent setup, create and activate a virtual environment, then attempt installation of the recorded pins:
 
 ```text
@@ -224,7 +249,7 @@ python -m pip install -r requirements.txt
 From the repository root, these checks do not fit predictive models or evaluate the reserved test:
 
 ```text
-python -B -m unittest discover -s tests -t . -v
+python -B -m unittest tests.test_preprocessing tests.test_portability -v
 python -B -m src.inspection.save_evidence
 ```
 

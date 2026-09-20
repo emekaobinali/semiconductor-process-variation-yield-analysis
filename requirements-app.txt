@@ -1,0 +1,4 @@
+# Isolated presentation environment. Does not replace scientific requirements.txt.
+# Run: python -m streamlit run streamlit_app.py
+streamlit==1.64.0
+pandas==3.0.1
